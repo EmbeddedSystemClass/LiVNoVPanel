@@ -1,0 +1,1166 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Application">
+      <UniqueIdentifier>{021fe954-e389-471c-bcbf-23e153b539be}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Config">
+      <UniqueIdentifier>{3c0cd5f6-c818-4fc8-8eda-0bed92b10d71}</UniqueIdentifier>
+      <Extensions>*.h</Extensions>
+    </Filter>
+    <Filter Include="GUI">
+      <UniqueIdentifier>{51d44c4e-3094-4a5d-9b8a-0bc46f6dc9c9}</UniqueIdentifier>
+      <Extensions>*.*</Extensions>
+    </Filter>
+    <Filter Include="GUI\ConvertColor">
+      <UniqueIdentifier>{fcd5786b-8dd6-4e66-a990-bbfca405b72c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GUI\ConvertMono">
+      <UniqueIdentifier>{1372e277-7a85-4324-94b7-cb9e992a6daa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GUI\Core">
+      <UniqueIdentifier>{a53be29b-e6b0-4340-9ce9-e12ce3239eae}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GUI\Font">
+      <UniqueIdentifier>{b02e7e87-3bfe-4ebf-b491-fc9c3047b986}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GUI\JPEG">
+      <UniqueIdentifier>{da3ed492-8202-4588-a17b-dbf35c9f26d9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GUI\LCDDriver">
+      <UniqueIdentifier>{439076f8-4391-4dc6-af99-3d2c00dacb80}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="System">
+      <UniqueIdentifier>{37e1d7b0-304a-4048-9c07-fd95bf249a63}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="System\Simulation">
+      <UniqueIdentifier>{9f916d02-e141-4506-b60b-0955375b91ed}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="System\Simulation\Res">
+      <UniqueIdentifier>{4ae3e6f1-7737-47b6-863a-1d0df88b12e3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="System\Simulation\WinMain">
+      <UniqueIdentifier>{063eacee-c9d3-4cc8-80be-efe05ed48849}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Application\MainTask.c">
+      <Filter>Application</Filter>
+    </ClCompile>
+    <ClCompile Include="Application\SeggerLogo_1bpp.C">
+      <Filter>Application</Filter>
+    </ClCompile>
+    <ClCompile Include="Application\SeggerLogoBlue16.C">
+      <Filter>Application</Filter>
+    </ClCompile>
+    <ClCompile Include="GUI\ConvertColor\LCDP111.c">
+      <Filter>GUI\ConvertColor</Filter>
+    </ClCompile>
+    <ClCompile Include="GUI\ConvertColor\LCDP222.c">
+      <Filter>GUI\ConvertColor</Filter>
+    </ClCompile>
+    <ClCompile Include="GUI\ConvertColor\LCDP233.c">
+      <Filter>GUI\ConvertColor</Filter>
+    </ClCompile>
+    <ClCompile Include="GUI\ConvertColor\LCDP323.c">
+      <Filter>GUI\ConvertColor</Filter>
+    </ClCompile>
+    <ClCompile Include="GUI\ConvertColor\LCDP332.c">
+      <Filter>GUI\ConvertColor</Filter>
+    </ClCompile>
+    <ClCompile Include="GUI\ConvertColor\LCDP444_12.c">
+      <Filter>GUI\ConvertColor</Filter>
+    </ClCompile>
+    <ClCompile Include="GUI\ConvertColor\LCDP444_12_1.c">
+      <Filter>GUI\ConvertColor</Filter>
+    </ClCompile>
+    <ClCompile Include="GUI\ConvertColor\LCDP444_16.c">
+      <Filter>GUI\ConvertColor</Filter>
+    </ClCompile>
+    <ClCompile Include="GUI\ConvertColor\LCDP555.c">
+      <Filter>GUI\ConvertColor</Filter>
+    </ClCompile>
+    <ClCompile Include="GUI\ConvertColor\LCDP556.c">
+      <Filter>GUI\ConvertColor</Filter>
+    </ClCompile>
+    <ClCompile Include="GUI\ConvertColor\LCDP565.c">
+      <Filter>GUI\ConvertColor</Filter>
+    </ClCompile>
+    <ClCompile Include="GUI\ConvertColor\LCDP655.c">
+      <Filter>GUI\ConvertColor</Filter>
+    </ClCompile>
+    <ClCompile Include="GUI\ConvertColor\LCDP666.c">
+      <Filter>GUI\ConvertColor</Filter>
+    </ClCompile>
+    <ClCompile Include="GUI\ConvertColor\LCDP8666.c">
+      <Filter>GUI\ConvertColor</Filter>
+    </ClCompile>
+    <ClCompile Include="GUI\ConvertColor\LCDP8666_1.c">
+      <Filter>GUI\ConvertColor</Filter>
+    </ClCompile>
+    <ClCompile Include="GUI\ConvertColor\LCDP888.c">
+      <Filter>GUI\ConvertColor</Filter>
+    </ClCompile>
+    <ClCompile Include="GUI\ConvertColor\LCDPM233.c">
+      <Filter>GUI\ConvertColor</Filter>
+    </ClCompile>
+    <ClCompile Include="GUI\ConvertColor\LCDPM323.c">
+      <Filter>GUI\ConvertColor</Filter>
+    </ClCompile>
+    <ClCompile Include="GUI\ConvertColor\LCDPM332.c">
+      <Filter>GUI\ConvertColor</Filter>
+    </ClCompile>
+    <ClCompile Include="GUI\ConvertColor\LCDPM444_12.c">
+      <Filter>GUI\ConvertColor</Filter>
+    </ClCompile>
+    <ClCompile Include="GUI\ConvertColor\LCDPM444_16.c">
+      <Filter>GUI\ConvertColor</Filter>
+    </ClCompile>
+    <ClCompile Include="GUI\ConvertColor\LCDPM555.c">
+      <Filter>GUI\ConvertColor</Filter>
+    </ClCompile>
+    <ClCompile Include="GUI\ConvertColor\LCDPM556.c">
+      <Filter>GUI\ConvertColor</Filter>
+    </ClCompile>
+    <ClCompile Include="GUI\ConvertColor\LCDPM565.c">
+      <Filter>GUI\ConvertColor</Filter>
+    </ClCompile>
+    <ClCompile Include="GUI\ConvertColor\LCDPM655.c">
+      <Filter>GUI\ConvertColor</Filter>
+    </ClCompile>
+    <ClCompile Include="GUI\ConvertColor\LCDPM666.c">
+      <Filter>GUI\ConvertColor</Filter>
+    </ClCompile>
+    <ClCompile Include="GUI\ConvertColor\LCDPM888.c">
+      <Filter>GUI\ConvertColor</Filter>
+    </ClCompile>
+    <ClCompile Include="GUI\ConvertMono\LCDP0.c">
+      <Filter>GUI\ConvertMono</Filter>
+    </ClCompile>
+    <ClCompile Include="GUI\ConvertMono\LCDP2.c">
+      <Filter>GUI\ConvertMono</Filter>
+    </ClCompile>
+    <ClCompile Include="GUI\ConvertMono\LCDP4.c">
+      <Filter>GUI\ConvertMono</Filter>
+    </ClCompile>
+    <ClCompile Include="GUI\Core\GUI2DLib.c">
+      <Filter>GUI\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="GUI\Core\GUI__AddSpaceHex.c">
+      <Filter>GUI\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="GUI\Core\GUI__Arabic.c">
+      <Filter>GUI\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="GUI\Core\GUI__CalcTextRect.c">
+      <Filter>GUI\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="GUI\Core\GUI__DivideRound.c">
+      <Filter>GUI\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="GUI\Core\GUI__DivideRound32.c">
+      <Filter>GUI\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="GUI\Core\GUI__GetCursorPos.c">
+      <Filter>GUI\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="GUI\Core\GUI__GetFontSizeY.c">
+      <Filter>GUI\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="GUI\Core\GUI__GetNumChars.c">
+      <Filter>GUI\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="GUI\Core\GUI__HandleEOLine.c">
+      <Filter>GUI\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="GUI\Core\GUI__IntersectRect.c">
+      <Filter>GUI\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="GUI\Core\GUI__IntersectRects.c">
+      <Filter>GUI\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="GUI\Core\GUI__memset.c">
+      <Filter>GUI\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="GUI\Core\GUI__memset16.c">
+      <Filter>GUI\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="GUI\Core\GUI__Read.c">
+      <Filter>GUI\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="GUI\Core\GUI__ReduceRect.c">
+      <Filter>GUI\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="GUI\Core\GUI__SetText.c">
+      <Filter>GUI\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="GUI\Core\GUI__strcmp.c">
+      <Filter>GUI\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="GUI\Core\GUI__strlen.c">
+      <Filter>GUI\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="GUI\Core\GUI__Wrap.c">
+      <Filter>GUI\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="GUI\Core\GUI_AddBin.c">
+      <Filter>GUI\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="GUI\Core\GUI_AddDec.c">
+      <Filter>GUI\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="GUI\Core\GUI_AddDecMin.c">
+      <Filter>GUI\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="GUI\Core\GUI_AddDecShift.c">
+      <Filter>GUI\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="GUI\Core\GUI_AddHex.c">
+      <Filter>GUI\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="GUI\Core\GUI_AddKeyMsgHook.c">
+      <Filter>GUI\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="GUI\Core\GUI_ALLOC_AllocInit.c">
+      <Filter>GUI\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="GUI\Core\GUI_ALLOC_AllocZero.c">
+      <Filter>GUI\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="GUI\Core\GUI_BMP.c">
+      <Filter>GUI\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="GUI\Core\GUI_BMP_Serialize.c">
+      <Filter>GUI\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="GUI\Core\GUI_CalcColorDist.c">
+      <Filter>GUI\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="GUI\Core\GUI_ClearRectEx.c">
+      <Filter>GUI\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="GUI\Core\GUI_Color2VisColor.c">
+      <Filter>GUI\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="GUI\Core\GUI_CursorArrowL.c">
+      <Filter>GUI\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="GUI\Core\GUI_CursorArrowLI.c">
+      <Filter>GUI\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="GUI\Core\GUI_CursorArrowLPx.c">
+      <Filter>GUI\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="GUI\Core\GUI_CursorArrowM.c">
+      <Filter>GUI\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="GUI\Core\GUI_CursorArrowMI.c">
+      <Filter>GUI\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="GUI\Core\GUI_CursorArrowMPx.c">
+      <Filter>GUI\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="GUI\Core\GUI_CursorArrowS.c">
+      <Filter>GUI\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="GUI\Core\GUI_CursorArrowSI.c">
+      <Filter>GUI\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="GUI\Core\GUI_CursorArrowSPx.c">
+      <Filter>GUI\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="GUI\Core\GUI_CursorCrossL.c">
+      <Filter>GUI\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="GUI\Core\GUI_CursorCrossLI.c">
+      <Filter>GUI\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="GUI\Core\GUI_CursorCrossLPx.c">
+      <Filter>GUI\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="GUI\Core\GUI_CursorCrossM.c">
+      <Filter>GUI\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="GUI\Core\GUI_CursorCrossMI.c">
+      <Filter>GUI\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="GUI\Core\GUI_CursorCrossMPx.c">
+      <Filter>GUI\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="GUI\Core\GUI_CursorCrossS.c">
+      <Filter>GUI\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="GUI\Core\GUI_CursorCrossSI.c">
+      <Filter>GUI\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="GUI\Core\GUI_CursorCrossSPx.c">
+      <Filter>GUI\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="GUI\Core\GUI_CursorHeaderM.c">
+      <Filter>GUI\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="GUI\Core\GUI_CursorHeaderMI.c">
+      <Filter>GUI\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="GUI\Core\GUI_CursorHeaderMPx.c">
+      <Filter>GUI\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="GUI\Core\GUI_CursorPal.c">
+      <Filter>GUI\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="GUI\Core\GUI_CursorPalI.c">
+      <Filter>GUI\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="GUI\Core\GUI_DispBin.c">
+      <Filter>GUI\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="GUI\Core\GUI_DispCEOL.c">
+      <Filter>GUI\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="GUI\Core\GUI_DispChar.c">
+      <Filter>GUI\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="GUI\Core\GUI_DispChars.c">
+      <Filter>GUI\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="GUI\Core\GUI_DispHex.c">
+      <Filter>GUI\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="GUI\Core\GUI_DispString.c">
+      <Filter>GUI\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="GUI\Core\GUI_DispStringAt.c">
+      <Filter>GUI\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="GUI\Core\GUI_DispStringAtCEOL.c">
+      <Filter>GUI\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="GUI\Core\GUI_DispStringHCenter.c">
+      <Filter>GUI\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="GUI\Core\GUI_DispStringInRect.c">
+      <Filter>GUI\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="GUI\Core\GUI_DispStringInRectEx.c">
+      <Filter>GUI\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="GUI\Core\GUI_DispStringInRectMax.c">
+      <Filter>GUI\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="GUI\Core\GUI_DispStringLen.c">
+      <Filter>GUI\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="GUI\Core\GUI_DrawBitmap.c">
+      <Filter>GUI\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="GUI\Core\GUI_DrawBitmapEx.c">
+      <Filter>GUI\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="GUI\Core\GUI_DrawBitmapExp.c">
+      <Filter>GUI\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="GUI\Core\GUI_DrawBitmapMag.c">
+      <Filter>GUI\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="GUI\Core\GUI_DrawFocusRect.c">
+      <Filter>GUI\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="GUI\Core\GUI_DrawGraph.c">
+      <Filter>GUI\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="GUI\Core\GUI_DrawGraphEx.c">
+      <Filter>GUI\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="GUI\Core\GUI_DrawHLine.c">
+      <Filter>GUI\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="GUI\Core\GUI_DrawLine.c">
+      <Filter>GUI\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="GUI\Core\GUI_DrawPie.c">
+      <Filter>GUI\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="GUI\Core\GUI_DrawPixel.c">
+      <Filter>GUI\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="GUI\Core\GUI_DrawPoint.c">
+      <Filter>GUI\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="GUI\Core\GUI_DrawPolygon.c">
+      <Filter>GUI\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="GUI\Core\GUI_DrawPolyline.c">
+      <Filter>GUI\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="GUI\Core\GUI_DrawRectEx.c">
+      <Filter>GUI\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="GUI\Core\GUI_DrawVLine.c">
+      <Filter>GUI\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="GUI\Core\GUI_ErrorOut.c">
+      <Filter>GUI\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="GUI\Core\GUI_Exec.c">
+      <Filter>GUI\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="GUI\Core\GUI_FillPolygon.c">
+      <Filter>GUI\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="GUI\Core\GUI_FillRect.c">
+      <Filter>GUI\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="GUI\Core\GUI_FillRectEx.c">
+      <Filter>GUI\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="GUI\Core\GUI_GetBitmapPixelColor.c">
+      <Filter>GUI\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="GUI\Core\GUI_GetBitmapPixelIndex.c">
+      <Filter>GUI\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="GUI\Core\GUI_GetClientRect.c">
+      <Filter>GUI\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="GUI\Core\GUI_GetColor.c">
+      <Filter>GUI\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="GUI\Core\GUI_GetDispPos.c">
+      <Filter>GUI\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="GUI\Core\GUI_GetDrawMode.c">
+      <Filter>GUI\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="GUI\Core\GUI_GetFont.c">
+      <Filter>GUI\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="GUI\Core\GUI_GetFontInfo.c">
+      <Filter>GUI\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="GUI\Core\GUI_GetFontSizeY.c">
+      <Filter>GUI\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="GUI\Core\GUI_GetLineStyle.c">
+      <Filter>GUI\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="GUI\Core\GUI_GetOrg.c">
+      <Filter>GUI\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="GUI\Core\GUI_GetStringDistX.c">
+      <Filter>GUI\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="GUI\Core\GUI_GetTextAlign.c">
+      <Filter>GUI\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="GUI\Core\GUI_GetTextExtend.c">
+      <Filter>GUI\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="GUI\Core\GUI_GetTextMode.c">
+      <Filter>GUI\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="GUI\Core\GUI_GetVersionString.c">
+      <Filter>GUI\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="GUI\Core\GUI_GetYSizeOfFont.c">
+      <Filter>GUI\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="GUI\Core\GUI_GIF.c">
+      <Filter>GUI\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="GUI\Core\GUI_Goto.c">
+      <Filter>GUI\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="GUI\Core\GUI_InitLUT.c">
+      <Filter>GUI\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="GUI\Core\GUI_InvertRect.c">
+      <Filter>GUI\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="GUI\Core\GUI_IsInFont.c">
+      <Filter>GUI\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="GUI\Core\GUI_Log.c">
+      <Filter>GUI\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="GUI\Core\GUI_MergeRect.c">
+      <Filter>GUI\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="GUI\Core\GUI_MOUSE.c">
+      <Filter>GUI\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="GUI\Core\GUI_MOUSE_DriverPS2.c">
+      <Filter>GUI\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="GUI\Core\GUI_MoveRect.c">
+      <Filter>GUI\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="GUI\Core\GUI_OnKey.c">
+      <Filter>GUI\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="GUI\Core\GUI_Pen.c">
+      <Filter>GUI\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="GUI\Core\GUI_PID.c">
+      <Filter>GUI\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="GUI\Core\GUI_RectsIntersect.c">
+      <Filter>GUI\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="GUI\Core\GUI_SaveContext.c">
+      <Filter>GUI\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="GUI\Core\GUI_ScreenSize.c">
+      <Filter>GUI\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="GUI\Core\GUI_SelectLayer.c">
+      <Filter>GUI\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="GUI\Core\GUI_SelectLCD.c">
+      <Filter>GUI\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="GUI\Core\GUI_SetClipRect.c">
+      <Filter>GUI\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="GUI\Core\GUI_SetColor.c">
+      <Filter>GUI\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="GUI\Core\GUI_SetColorIndex.c">
+      <Filter>GUI\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="GUI\Core\GUI_SetDecChar.c">
+      <Filter>GUI\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="GUI\Core\GUI_SetDefault.c">
+      <Filter>GUI\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="GUI\Core\GUI_SetDrawMode.c">
+      <Filter>GUI\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="GUI\Core\GUI_SetFont.c">
+      <Filter>GUI\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="GUI\Core\GUI_SetLBorder.c">
+      <Filter>GUI\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="GUI\Core\GUI_SetLineStyle.c">
+      <Filter>GUI\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="GUI\Core\GUI_SetLUTColor.c">
+      <Filter>GUI\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="GUI\Core\GUI_SetLUTColorEx.c">
+      <Filter>GUI\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="GUI\Core\GUI_SetLUTEntry.c">
+      <Filter>GUI\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="GUI\Core\GUI_SetOrg.c">
+      <Filter>GUI\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="GUI\Core\GUI_SetPixelIndex.c">
+      <Filter>GUI\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="GUI\Core\GUI_SetTextAlign.c">
+      <Filter>GUI\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="GUI\Core\GUI_SetTextMode.c">
+      <Filter>GUI\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="GUI\Core\GUI_SetTextStyle.c">
+      <Filter>GUI\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="GUI\Core\GUI_SIF.c">
+      <Filter>GUI\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="GUI\Core\GUI_SIF_Prop.c">
+      <Filter>GUI\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="GUI\Core\GUI_TOUCH.c">
+      <Filter>GUI\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="GUI\Core\GUI_TOUCH_DriverAnalog.c">
+      <Filter>GUI\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="GUI\Core\GUI_TOUCH_StoreState.c">
+      <Filter>GUI\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="GUI\Core\GUI_TOUCH_StoreUnstable.c">
+      <Filter>GUI\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="GUI\Core\GUI_UC.c">
+      <Filter>GUI\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="GUI\Core\GUI_UC_ConvertUC2UTF8.c">
+      <Filter>GUI\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="GUI\Core\GUI_UC_ConvertUTF82UC.c">
+      <Filter>GUI\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="GUI\Core\GUI_UC_DispString.c">
+      <Filter>GUI\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="GUI\Core\GUI_UC_EncodeNone.c">
+      <Filter>GUI\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="GUI\Core\GUI_UC_EncodeUTF8.c">
+      <Filter>GUI\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="GUI\Core\GUI_WaitEvent.c">
+      <Filter>GUI\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="GUI\Core\GUI_WaitKey.c">
+      <Filter>GUI\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="GUI\Core\GUI_Warn.c">
+      <Filter>GUI\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="GUI\Core\GUIAlloc.c">
+      <Filter>GUI\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="GUI\Core\GUIArc.c">
+      <Filter>GUI\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="GUI\Core\GUIChar.c">
+      <Filter>GUI\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="GUI\Core\GUICharLine.c">
+      <Filter>GUI\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="GUI\Core\GUICharM.c">
+      <Filter>GUI\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="GUI\Core\GUICharP.c">
+      <Filter>GUI\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="GUI\Core\GUICirc.c">
+      <Filter>GUI\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="GUI\Core\GUIColor2Index.c">
+      <Filter>GUI\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="GUI\Core\GUICore.c">
+      <Filter>GUI\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="GUI\Core\GUICurs.c">
+      <Filter>GUI\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="GUI\Core\GUIEncJS.c">
+      <Filter>GUI\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="GUI\Core\GUIIndex2Color.c">
+      <Filter>GUI\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="GUI\Core\GUIPolyE.c">
+      <Filter>GUI\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="GUI\Core\GUIPolyM.c">
+      <Filter>GUI\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="GUI\Core\GUIPolyR.c">
+      <Filter>GUI\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="GUI\Core\GUIRealloc.c">
+      <Filter>GUI\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="GUI\Core\GUIStream.c">
+      <Filter>GUI\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="GUI\Core\GUITask.c">
+      <Filter>GUI\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="GUI\Core\GUITime.c">
+      <Filter>GUI\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="GUI\Core\GUITimer.c">
+      <Filter>GUI\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="GUI\Core\GUIUC0.c">
+      <Filter>GUI\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="GUI\Core\GUIVal.c">
+      <Filter>GUI\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="GUI\Core\GUIValf.c">
+      <Filter>GUI\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="GUI\Core\LCD.c">
+      <Filter>GUI\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="GUI\Core\LCD_API.c">
+      <Filter>GUI\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="GUI\Core\LCD_DrawBitmap_565.c">
+      <Filter>GUI\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="GUI\Core\LCD_DrawBitmap_888.c">
+      <Filter>GUI\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="GUI\Core\LCD_DrawVLine.c">
+      <Filter>GUI\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="GUI\Core\LCD_GetColorIndex.c">
+      <Filter>GUI\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="GUI\Core\LCD_GetEx.c">
+      <Filter>GUI\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="GUI\Core\LCD_GetNumDisplays.c">
+      <Filter>GUI\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="GUI\Core\LCD_GetPixelColor.c">
+      <Filter>GUI\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="GUI\Core\LCD_Index2ColorEx.c">
+      <Filter>GUI\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="GUI\Core\LCD_L0_Generic.c">
+      <Filter>GUI\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="GUI\Core\LCD_Mirror.c">
+      <Filter>GUI\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="GUI\Core\LCD_MixColors256.c">
+      <Filter>GUI\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="GUI\Core\LCD_ReadRect.c">
+      <Filter>GUI\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="GUI\Core\LCD_Rotate180.c">
+      <Filter>GUI\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="GUI\Core\LCD_RotateCCW.c">
+      <Filter>GUI\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="GUI\Core\LCD_RotateCW.c">
+      <Filter>GUI\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="GUI\Core\LCD_SelectLCD.c">
+      <Filter>GUI\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="GUI\Core\LCD_SetAPI.c">
+      <Filter>GUI\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="GUI\Core\LCD_SetClipRectEx.c">
+      <Filter>GUI\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="GUI\Core\LCD_UpdateColorIndices.c">
+      <Filter>GUI\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="GUI\Core\LCDAA.c">
+      <Filter>GUI\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="GUI\Core\LCDColor.c">
+      <Filter>GUI\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="GUI\Core\LCDGetP.c">
+      <Filter>GUI\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="GUI\Core\LCDInfo.c">
+      <Filter>GUI\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="GUI\Core\LCDInfo0.c">
+      <Filter>GUI\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="GUI\Core\LCDInfo1.c">
+      <Filter>GUI\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="GUI\Core\LCDL0Delta.c">
+      <Filter>GUI\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="GUI\Core\LCDL0Mag.c">
+      <Filter>GUI\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="GUI\Core\LCDP1.c">
+      <Filter>GUI\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="GUI\Core\LCDP565_Index2Color.c">
+      <Filter>GUI\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="GUI\Core\LCDP888_Index2Color.c">
+      <Filter>GUI\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="GUI\Core\LCDPM565_Index2Color.c">
+      <Filter>GUI\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="GUI\Core\LCDPM888_Index2Color.c">
+      <Filter>GUI\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="GUI\Core\LCDRLE16.c">
+      <Filter>GUI\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="GUI\Core\LCDRLE4.c">
+      <Filter>GUI\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="GUI\Core\LCDRLE8.c">
+      <Filter>GUI\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="GUI\Font\F08_1.c">
+      <Filter>GUI\Font</Filter>
+    </ClCompile>
+    <ClCompile Include="GUI\Font\F08_ASCII.c">
+      <Filter>GUI\Font</Filter>
+    </ClCompile>
+    <ClCompile Include="GUI\Font\F10_1.c">
+      <Filter>GUI\Font</Filter>
+    </ClCompile>
+    <ClCompile Include="GUI\Font\F10_ASCII.c">
+      <Filter>GUI\Font</Filter>
+    </ClCompile>
+    <ClCompile Include="GUI\Font\F10S_1.c">
+      <Filter>GUI\Font</Filter>
+    </ClCompile>
+    <ClCompile Include="GUI\Font\F10S_ASCII.c">
+      <Filter>GUI\Font</Filter>
+    </ClCompile>
+    <ClCompile Include="GUI\Font\F13_1.c">
+      <Filter>GUI\Font</Filter>
+    </ClCompile>
+    <ClCompile Include="GUI\Font\F13_ASCII.c">
+      <Filter>GUI\Font</Filter>
+    </ClCompile>
+    <ClCompile Include="GUI\Font\F13B_1.c">
+      <Filter>GUI\Font</Filter>
+    </ClCompile>
+    <ClCompile Include="GUI\Font\F13B_ASCII.c">
+      <Filter>GUI\Font</Filter>
+    </ClCompile>
+    <ClCompile Include="GUI\Font\F13H_1.c">
+      <Filter>GUI\Font</Filter>
+    </ClCompile>
+    <ClCompile Include="GUI\Font\F13H_ASCII.c">
+      <Filter>GUI\Font</Filter>
+    </ClCompile>
+    <ClCompile Include="GUI\Font\F13HB_1.c">
+      <Filter>GUI\Font</Filter>
+    </ClCompile>
+    <ClCompile Include="GUI\Font\F13HB_ASCII.c">
+      <Filter>GUI\Font</Filter>
+    </ClCompile>
+    <ClCompile Include="GUI\Font\F16_1.c">
+      <Filter>GUI\Font</Filter>
+    </ClCompile>
+    <ClCompile Include="GUI\Font\F16_1HK.c">
+      <Filter>GUI\Font</Filter>
+    </ClCompile>
+    <ClCompile Include="GUI\Font\F16_ASCII.c">
+      <Filter>GUI\Font</Filter>
+    </ClCompile>
+    <ClCompile Include="GUI\Font\F16_HK.c">
+      <Filter>GUI\Font</Filter>
+    </ClCompile>
+    <ClCompile Include="GUI\Font\F16B_1.c">
+      <Filter>GUI\Font</Filter>
+    </ClCompile>
+    <ClCompile Include="GUI\Font\F16B_ASCII.c">
+      <Filter>GUI\Font</Filter>
+    </ClCompile>
+    <ClCompile Include="GUI\Font\F24_1.c">
+      <Filter>GUI\Font</Filter>
+    </ClCompile>
+    <ClCompile Include="GUI\Font\F24_ASCII.c">
+      <Filter>GUI\Font</Filter>
+    </ClCompile>
+    <ClCompile Include="GUI\Font\F24B_1.c">
+      <Filter>GUI\Font</Filter>
+    </ClCompile>
+    <ClCompile Include="GUI\Font\F24B_ASCII.c">
+      <Filter>GUI\Font</Filter>
+    </ClCompile>
+    <ClCompile Include="GUI\Font\F32_1.c">
+      <Filter>GUI\Font</Filter>
+    </ClCompile>
+    <ClCompile Include="GUI\Font\F32_ASCII.c">
+      <Filter>GUI\Font</Filter>
+    </ClCompile>
+    <ClCompile Include="GUI\Font\F32B_1.c">
+      <Filter>GUI\Font</Filter>
+    </ClCompile>
+    <ClCompile Include="GUI\Font\F32B_ASCII.c">
+      <Filter>GUI\Font</Filter>
+    </ClCompile>
+    <ClCompile Include="GUI\Font\F4x6.c">
+      <Filter>GUI\Font</Filter>
+    </ClCompile>
+    <ClCompile Include="GUI\Font\F6x8.c">
+      <Filter>GUI\Font</Filter>
+    </ClCompile>
+    <ClCompile Include="GUI\Font\F8x10_ASCII.c">
+      <Filter>GUI\Font</Filter>
+    </ClCompile>
+    <ClCompile Include="GUI\Font\F8x12_ASCII.c">
+      <Filter>GUI\Font</Filter>
+    </ClCompile>
+    <ClCompile Include="GUI\Font\F8x13_1.c">
+      <Filter>GUI\Font</Filter>
+    </ClCompile>
+    <ClCompile Include="GUI\Font\F8x13_ASCII.c">
+      <Filter>GUI\Font</Filter>
+    </ClCompile>
+    <ClCompile Include="GUI\Font\F8x15B_1.c">
+      <Filter>GUI\Font</Filter>
+    </ClCompile>
+    <ClCompile Include="GUI\Font\F8x15B_ASCII.c">
+      <Filter>GUI\Font</Filter>
+    </ClCompile>
+    <ClCompile Include="GUI\Font\F8x16.c">
+      <Filter>GUI\Font</Filter>
+    </ClCompile>
+    <ClCompile Include="GUI\Font\F8x8.c">
+      <Filter>GUI\Font</Filter>
+    </ClCompile>
+    <ClCompile Include="GUI\Font\FComic18B_1.c">
+      <Filter>GUI\Font</Filter>
+    </ClCompile>
+    <ClCompile Include="GUI\Font\FComic18B_ASCII.c">
+      <Filter>GUI\Font</Filter>
+    </ClCompile>
+    <ClCompile Include="GUI\Font\FComic24B_1.c">
+      <Filter>GUI\Font</Filter>
+    </ClCompile>
+    <ClCompile Include="GUI\Font\FComic24B_ASCII.c">
+      <Filter>GUI\Font</Filter>
+    </ClCompile>
+    <ClCompile Include="GUI\Font\FD24x32.c">
+      <Filter>GUI\Font</Filter>
+    </ClCompile>
+    <ClCompile Include="GUI\Font\FD32.c">
+      <Filter>GUI\Font</Filter>
+    </ClCompile>
+    <ClCompile Include="GUI\Font\FD36x48.c">
+      <Filter>GUI\Font</Filter>
+    </ClCompile>
+    <ClCompile Include="GUI\Font\FD48.c">
+      <Filter>GUI\Font</Filter>
+    </ClCompile>
+    <ClCompile Include="GUI\Font\FD48x64.c">
+      <Filter>GUI\Font</Filter>
+    </ClCompile>
+    <ClCompile Include="GUI\Font\FD60x80.c">
+      <Filter>GUI\Font</Filter>
+    </ClCompile>
+    <ClCompile Include="GUI\Font\FD64.c">
+      <Filter>GUI\Font</Filter>
+    </ClCompile>
+    <ClCompile Include="GUI\Font\FD80.c">
+      <Filter>GUI\Font</Filter>
+    </ClCompile>
+    <ClCompile Include="GUI\JPEG\GUI_JPEG.c">
+      <Filter>GUI\JPEG</Filter>
+    </ClCompile>
+    <ClCompile Include="GUI\JPEG\jcomapi.c">
+      <Filter>GUI\JPEG</Filter>
+    </ClCompile>
+    <ClCompile Include="GUI\JPEG\jdapimin.c">
+      <Filter>GUI\JPEG</Filter>
+    </ClCompile>
+    <ClCompile Include="GUI\JPEG\jdapistd.c">
+      <Filter>GUI\JPEG</Filter>
+    </ClCompile>
+    <ClCompile Include="GUI\JPEG\jdcoefct.c">
+      <Filter>GUI\JPEG</Filter>
+    </ClCompile>
+    <ClCompile Include="GUI\JPEG\jdcolor.c">
+      <Filter>GUI\JPEG</Filter>
+    </ClCompile>
+    <ClCompile Include="GUI\JPEG\jddctmgr.c">
+      <Filter>GUI\JPEG</Filter>
+    </ClCompile>
+    <ClCompile Include="GUI\JPEG\jdhuff.c">
+      <Filter>GUI\JPEG</Filter>
+    </ClCompile>
+    <ClCompile Include="GUI\JPEG\jdinput.c">
+      <Filter>GUI\JPEG</Filter>
+    </ClCompile>
+    <ClCompile Include="GUI\JPEG\jdmainct.c">
+      <Filter>GUI\JPEG</Filter>
+    </ClCompile>
+    <ClCompile Include="GUI\JPEG\jdmarker.c">
+      <Filter>GUI\JPEG</Filter>
+    </ClCompile>
+    <ClCompile Include="GUI\JPEG\jdmaster.c">
+      <Filter>GUI\JPEG</Filter>
+    </ClCompile>
+    <ClCompile Include="GUI\JPEG\jdmerge.c">
+      <Filter>GUI\JPEG</Filter>
+    </ClCompile>
+    <ClCompile Include="GUI\JPEG\jdphuff.c">
+      <Filter>GUI\JPEG</Filter>
+    </ClCompile>
+    <ClCompile Include="GUI\JPEG\jdpostct.c">
+      <Filter>GUI\JPEG</Filter>
+    </ClCompile>
+    <ClCompile Include="GUI\JPEG\jdsample.c">
+      <Filter>GUI\JPEG</Filter>
+    </ClCompile>
+    <ClCompile Include="GUI\JPEG\jdtrans.c">
+      <Filter>GUI\JPEG</Filter>
+    </ClCompile>
+    <ClCompile Include="GUI\JPEG\jerror.c">
+      <Filter>GUI\JPEG</Filter>
+    </ClCompile>
+    <ClCompile Include="GUI\JPEG\jfdctflt.c">
+      <Filter>GUI\JPEG</Filter>
+    </ClCompile>
+    <ClCompile Include="GUI\JPEG\jfdctfst.c">
+      <Filter>GUI\JPEG</Filter>
+    </ClCompile>
+    <ClCompile Include="GUI\JPEG\jfdctint.c">
+      <Filter>GUI\JPEG</Filter>
+    </ClCompile>
+    <ClCompile Include="GUI\JPEG\jidctflt.c">
+      <Filter>GUI\JPEG</Filter>
+    </ClCompile>
+    <ClCompile Include="GUI\JPEG\jidctfst.c">
+      <Filter>GUI\JPEG</Filter>
+    </ClCompile>
+    <ClCompile Include="GUI\JPEG\jidctint.c">
+      <Filter>GUI\JPEG</Filter>
+    </ClCompile>
+    <ClCompile Include="GUI\JPEG\jidctred.c">
+      <Filter>GUI\JPEG</Filter>
+    </ClCompile>
+    <ClCompile Include="GUI\JPEG\jmemmgr.c">
+      <Filter>GUI\JPEG</Filter>
+    </ClCompile>
+    <ClCompile Include="GUI\JPEG\jquant1.c">
+      <Filter>GUI\JPEG</Filter>
+    </ClCompile>
+    <ClCompile Include="GUI\JPEG\jquant2.c">
+      <Filter>GUI\JPEG</Filter>
+    </ClCompile>
+    <ClCompile Include="GUI\JPEG\jutils.c">
+      <Filter>GUI\JPEG</Filter>
+    </ClCompile>
+    <ClCompile Include="GUI\LCDDriver\LCDWin.c">
+      <Filter>GUI\LCDDriver</Filter>
+    </ClCompile>
+    <ClCompile Include="System\Simulation\SIM_X.c">
+      <Filter>System\Simulation</Filter>
+    </ClCompile>
+    <ClCompile Include="System\Simulation\WinMain\WinMain.c">
+      <Filter>System\Simulation\WinMain</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Config\GUICONF.H">
+      <Filter>Config</Filter>
+    </ClInclude>
+    <ClInclude Include="Config\GUITouchConf.h">
+      <Filter>Config</Filter>
+    </ClInclude>
+    <ClInclude Include="Config\LCDConf.H">
+      <Filter>Config</Filter>
+    </ClInclude>
+    <ClInclude Include="GUI\Core\GUI.h">
+      <Filter>GUI\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="GUI\Core\GUI_ConfDefaults.h">
+      <Filter>GUI\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="GUI\Core\GUI_FontIntern.h">
+      <Filter>GUI\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="GUI\Core\GUI_Private.h">
+      <Filter>GUI\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="GUI\Core\GUI_Protected.h">
+      <Filter>GUI\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="GUI\Core\GUI_VNC.h">
+      <Filter>GUI\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="GUI\Core\GUI_X.h">
+      <Filter>GUI\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="GUI\Core\GUIDebug.h">
+      <Filter>GUI\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="GUI\Core\GUIType.h">
+      <Filter>GUI\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="GUI\Core\GUIVersion.h">
+      <Filter>GUI\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="GUI\Core\LCD.h">
+      <Filter>GUI\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="GUI\Core\LCD_ConfDefaults.h">
+      <Filter>GUI\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="GUI\Core\LCD_Private.h">
+      <Filter>GUI\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="GUI\Core\LCD_Protected.h">
+      <Filter>GUI\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="GUI\Core\LCDSIM.h">
+      <Filter>GUI\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="GUI\JPEG\jconfig.h">
+      <Filter>GUI\JPEG</Filter>
+    </ClInclude>
+    <ClInclude Include="GUI\JPEG\jdct.h">
+      <Filter>GUI\JPEG</Filter>
+    </ClInclude>
+    <ClInclude Include="GUI\JPEG\jdhuff.h">
+      <Filter>GUI\JPEG</Filter>
+    </ClInclude>
+    <ClInclude Include="GUI\JPEG\jerror.h">
+      <Filter>GUI\JPEG</Filter>
+    </ClInclude>
+    <ClInclude Include="GUI\JPEG\jinclude.h">
+      <Filter>GUI\JPEG</Filter>
+    </ClInclude>
+    <ClInclude Include="GUI\JPEG\jmemsys.h">
+      <Filter>GUI\JPEG</Filter>
+    </ClInclude>
+    <ClInclude Include="GUI\JPEG\jmorecfg.h">
+      <Filter>GUI\JPEG</Filter>
+    </ClInclude>
+    <ClInclude Include="GUI\JPEG\jpegint.h">
+      <Filter>GUI\JPEG</Filter>
+    </ClInclude>
+    <ClInclude Include="GUI\JPEG\jpeglib.h">
+      <Filter>GUI\JPEG</Filter>
+    </ClInclude>
+    <ClInclude Include="GUI\JPEG\jversion.h">
+      <Filter>GUI\JPEG</Filter>
+    </ClInclude>
+    <ClInclude Include="System\Simulation\GUI_SIM_NoWin32.h">
+      <Filter>System\Simulation</Filter>
+    </ClInclude>
+    <ClInclude Include="System\Simulation\GUI_SIM_Win32.h">
+      <Filter>System\Simulation</Filter>
+    </ClInclude>
+    <ClInclude Include="System\Simulation\SIM.h">
+      <Filter>System\Simulation</Filter>
+    </ClInclude>
+    <ClInclude Include="System\Simulation\Res\ResourceSim.h">
+      <Filter>System\Simulation\Res</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="System\Simulation\Res\Branding.rh">
+      <Filter>System\Simulation\Res</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="System\Simulation\Res\Device.bmp">
+      <Filter>System\Simulation\Res</Filter>
+    </Image>
+    <Image Include="System\Simulation\Res\Device1.bmp">
+      <Filter>System\Simulation\Res</Filter>
+    </Image>
+    <Image Include="System\Simulation\Res\Logo.bmp">
+      <Filter>System\Simulation\Res</Filter>
+    </Image>
+    <Image Include="System\Simulation\Res\Simulation.ico">
+      <Filter>System\Simulation\Res</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="System\Simulation\Res\Simulation.rc">
+      <Filter>System\Simulation\Res</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>
